@@ -1,0 +1,21 @@
+CARS
+
+id - PRIMARY KEY - NOT_NULL, UNIQUE , AUTO_INCREMENT - INT
+make - NOT_NULL - VARCHAR(30)
+model - NOT_NULL - VARCHAR(50)
+variant - NULL - VARCHAR(100)
+body_type - NULL - VARCHAR(20)
+first_registration - NULL - DATE
+color - NULL - VARCHAR(20)
+fuel - NULL - VARCHAR(30)
+price - NOT_NULL - FLOAT(8,2)
+power_hp - NULL - SMALLINT
+chilometers - NULL - INT
+doors_number - NULL - TINYINT(1)
+gear - NULL - CHAR(3)
+equipment - NULL - VARCHAR
+euro_class - NULL - CHAR(1)
+previous_owners - NULL - TINYINT(1)
+
+
+
